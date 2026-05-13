@@ -1,4 +1,3 @@
-
 module tb_and_gate;
 
 reg a, b;
