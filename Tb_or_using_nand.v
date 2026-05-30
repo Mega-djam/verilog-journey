@@ -1,0 +1,15 @@
+module tb_or_using_nand_gate;
+
+reg a, b;
+wire op;
+
+or_using_nand_gate dut(.a(a), .b(b), .c(op));
+
+initial begin
+a=0;b=0;
+#10 a=0;b=1;
+#10 a=1;b=0;
+#10 a=1;b=1;
+#10 $finish;
+end
+endmodule
