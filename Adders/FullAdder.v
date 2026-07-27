@@ -1,4 +1,5 @@
 module full_Adder(a, b, c, sum, carry);
+    
     input a, b, c;
     output sum, carry;
     wire w1, w2, w3, w4, w5;
