@@ -1,7 +1,7 @@
-This folder contains verilog code for Mulitplexer aka MUX
+This folder contains verilog code for Multiplexer aka MUX
 
 1.What is a Mux?
-Muliplexer(MUX) is a electronic device which selects one of mulitple inputs and reflects it in the single output line based on the select line inputs. In simple terms, 
+Multiplexer(MUX) is a electronic device which selects one of multiple inputs and reflects it in the single output line based on the select line inputs. In simple terms, 
 Based on the binary value of the select lines, only one input is selected, and its value appears at the output.
 
 2.How Multiplexers work?
@@ -20,6 +20,6 @@ For example, for a 2 input MUX, the number of select lines is 1 and number of ou
                                                |
                                               Sel
 3.What are the application:
-Multiplexers are used in Computer processors to route data from multiple source such as memory, registers, hardware perpherial, I/O devices to CPU based on control signals.
+Multiplexers are used in Computer processors to route data from multiple source such as memory, registers, hardware peripheral, I/O devices to CPU based on control signals.
 Multiplexers are also used to combine multiple data signals into a single communication channel or transmission medium, enabling efficient utilization 
 of the available bandwidth.
