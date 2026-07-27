@@ -1,1 +1,1 @@
-This Adder Folder contains the Adder circutis.
+This Adder Folder contains the Adder circuits.
