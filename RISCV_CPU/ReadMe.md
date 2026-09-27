@@ -23,14 +23,14 @@ ModelSim
 
 # Folder Structure #
 RISC-V-CPU/
-    │
-    ├── program/
-    │   └── sample_program_1.hex
-    |
-    ├── rtl/
-    │   ├── BranchUnit.v
-    │   ├── ControlUnit.v
-    │   ├── DataMem.v
+│
+├── program/
+│   └── sample_program_1.hex
+|
+├── rtl/
+│   ├── BranchUnit.v
+│   ├── ControlUnit.v
+│   ├── DataMem.v
     │   ├── FrwdUnit.v
     │   ├── HazardUnit.v
     │   ├── ImmGen.v
