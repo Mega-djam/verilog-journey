@@ -22,15 +22,16 @@ Verilog
 ModelSim
 
 # Folder Structure #
+```text
 RISC-V-CPU/
-│
-├── program/
-│   └── sample_program_1.hex
-|
-├── rtl/
-│   ├── BranchUnit.v
-│   ├── ControlUnit.v
-│   ├── DataMem.v
+    │
+    ├── program/
+    │   └── sample_program_1.hex
+    |
+    ├── rtl/
+    │   ├── BranchUnit.v
+    │   ├── ControlUnit.v
+    │   ├── DataMem.v
     │   ├── FrwdUnit.v
     │   ├── HazardUnit.v
     │   ├── ImmGen.v
@@ -46,3 +47,4 @@ RISC-V-CPU/
     │   └── riscv_cpu_tb.v
     │
     └── README.md
+```
