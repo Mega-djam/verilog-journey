@@ -1,5 +1,5 @@
                    #  3 Staage 32 bit RiscV CPU with test bench to test in ModelSim #
-                   
+ ```text                  
 # Architecture included in this processor #
 - 32-bit RISC-V processor
 - RV32I subset
@@ -11,17 +11,23 @@
 - No branch prediction
 - LW and SW support
 - JAL support
-
+```
+```text
 # Pipeline Architecture #
 IF → ID/EX → MEM/WB
-
+```
+```text
 # Program #
 Verilog
-
+```
+```text
 # Tools #
 ModelSim
-
+```
+```text
 # Folder Structure #
+```
+
 ```text
 RISC-V-CPU/
     │
