@@ -87,19 +87,15 @@ module control_unit(
                     3'b000: begin
                         ALUControl = ALU_ADD;  // ADDI
                     end
-
                     3'b111: begin
                         ALUControl = ALU_AND;  // ANDI
                     end
-
                     3'b110: begin
                         ALUControl = ALU_OR;   // ORI
                     end
-
                     3'b100: begin
                         ALUControl = ALU_XOR; // XORI
                     end
-
                     default: begin
                         ALUControl = ALU_ADD;
                     end
@@ -137,21 +133,15 @@ module control_unit(
                     3'b000: begin
                         BranchNE = 1'b0;    // BEQ
                     end
-
                     3'b001: begin
                         BranchNE = 1'b1;  // BNE
                     end
-
                     default: begin
                         Branch   = 1'b0;
                         BranchNE = 1'b0;
                     end
                 endcase
-
-                // ALU can subtract the two operands
-                // to perform equality comparison.
                 ALUControl = ALU_SUB;
-
             end
 
             // JUMP AND LINK (JAL)
@@ -161,7 +151,7 @@ module control_unit(
                 RegWrite = 1'b1;
                 ALUControl = ALU_ADD; // JAL writes PC + 4 to rd
             end
-
+            
             // UNSUPPORTED OPCODE
             default: begin
 
